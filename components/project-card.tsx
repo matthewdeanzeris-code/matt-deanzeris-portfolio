@@ -11,7 +11,7 @@ export function ProjectCard({ project }: { project: Project }) {
     <Link
       href={`/projects/${project.slug}`}
       className={cn(
-        'group flex h-full flex-col rounded-lg border border-border bg-card p-5 shadow-[0_1px_0_rgb(20_33_61/0.04)] transition-all duration-300 hover:-translate-y-1 hover:border-foreground/30 hover:shadow-[0_18px_40px_-20px_rgb(20_33_61/0.35)] focus-visible:-translate-y-1 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent md:p-6',
+        'group flex h-full flex-col rounded-lg border border-border bg-card p-5 shadow-[0_1px_0_rgb(28_28_28/0.04)] transition-all duration-300 hover:-translate-y-1 hover:border-foreground/30 hover:shadow-[0_18px_40px_-20px_rgb(28_28_28/0.35)] focus-visible:-translate-y-1 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent md:p-6',
         featured && 'md:grid md:grid-cols-2 md:gap-8',
       )}
     >

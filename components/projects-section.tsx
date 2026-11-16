@@ -19,7 +19,7 @@ export function ProjectsSection() {
       className="scroll-mt-16 border-t border-foreground/15 py-20 md:py-28"
     >
       <div className="mx-auto max-w-6xl px-5 md:px-8">
-        <SectionHeading index="01" label="Selected work" title="Projects" id="projects-title" />
+        <SectionHeading index="03" label="Selected work" title="Projects" id="projects-title" />
 
         <div role="group" aria-label="Filter projects by category" className="mb-8 flex flex-wrap gap-2">
           {projectCategories.map((cat) => {

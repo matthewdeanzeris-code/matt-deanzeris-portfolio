@@ -18,8 +18,8 @@ export function Hero() {
           id="hero-title"
           className="mt-6 max-w-4xl text-balance font-serif text-5xl font-medium leading-[1.02] tracking-tight sm:text-6xl md:text-7xl lg:text-8xl"
         >
-          I build technical things people{' '}
-          <em className="font-normal italic text-accent">actually</em> adopt.
+          Innovating at the intersection of business, technology, and{' '}
+          <em className="font-normal italic text-accent">people</em>.
         </h1>
       </Reveal>
       <Reveal delay={160}>

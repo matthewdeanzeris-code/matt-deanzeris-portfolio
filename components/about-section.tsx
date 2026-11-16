@@ -21,7 +21,7 @@ export function AboutSection() {
               <span className="underline decoration-accent decoration-2 underline-offset-4">
                 B.S. in Mechanical Engineering at Vanderbilt
               </span>
-              , and joining IBM in New York after graduation.
+              , graduating in 2027.
             </p>
             <dl className="mt-10 grid grid-cols-1 gap-x-8 sm:grid-cols-2">
               {facts.map((fact) => (

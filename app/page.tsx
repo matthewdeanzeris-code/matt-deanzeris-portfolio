@@ -11,8 +11,8 @@ export default function Home() {
       <SiteHeader />
       <main>
         <Hero />
-        <ProjectsSection />
         <ExperienceSection />
+        <ProjectsSection />
         <AboutSection />
         <ContactSection />
       </main>

@@ -11,7 +11,7 @@ export function ExperienceSection() {
     >
       <div className="mx-auto grid max-w-6xl gap-16 px-5 md:px-8 lg:grid-cols-[1.4fr_1fr] lg:gap-20">
         <div>
-          <SectionHeading index="02" label="Where I've worked" title="Experience" id="experience-title" />
+          <SectionHeading index="01" label="Where I've worked" title="Experience" id="experience-title" />
           <ol className="relative ml-1.5 border-l border-foreground/20">
             {experience.map((item, i) => (
               <Reveal as="li" key={item.org} delay={i * 80} className="relative pb-10 pl-8 last:pb-0">
@@ -31,7 +31,7 @@ export function ExperienceSection() {
         </div>
 
         <div>
-          <SectionHeading index="03" label="Off the clock" title="Leadership" id="leadership-title" />
+          <SectionHeading index="02" label="Off the clock" title="Leadership" id="leadership-title" />
           <ul className="flex flex-col gap-5">
             {leadership.map((item, i) => (
               <Reveal as="li" key={item.org} delay={i * 80} className="rounded-lg border border-border bg-card p-6">
