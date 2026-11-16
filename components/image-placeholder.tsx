@@ -7,7 +7,7 @@ export function ImagePlaceholder({ label, className }: { label: string; classNam
       role="img"
       aria-label={`Image placeholder: ${label}`}
       className={cn(
-        'relative flex items-center justify-center overflow-hidden rounded-md border border-dashed border-foreground/25 bg-[#efe8d6]',
+        'relative flex items-center justify-center overflow-hidden rounded-md border border-dashed border-foreground/25 bg-[#17150f]',
         className,
       )}
     >
@@ -16,7 +16,7 @@ export function ImagePlaceholder({ label, className }: { label: string; classNam
         className="absolute inset-0 opacity-60"
         style={{
           backgroundImage:
-            'repeating-linear-gradient(135deg, rgb(138 109 47 / 0.12) 0 1px, transparent 1px 12px)',
+            'repeating-linear-gradient(135deg, rgb(207 174 112 / 0.1) 0 1px, transparent 1px 12px)',
         }}
       />
       <div className="relative flex flex-col items-center gap-2 px-4 text-center font-mono text-[11px] uppercase tracking-[0.14em] text-muted-foreground">
