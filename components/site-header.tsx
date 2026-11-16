@@ -1,8 +1,8 @@
 import Link from 'next/link'
 
 const links = [
-  { href: '/#projects', label: 'Projects' },
   { href: '/#experience', label: 'Experience' },
+  { href: '/#projects', label: 'Projects' },
   { href: '/#about', label: 'About' },
   { href: '/#contact', label: 'Contact' },
 ]

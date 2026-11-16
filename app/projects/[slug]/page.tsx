@@ -113,7 +113,7 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
 
         <Link
           href={`/projects/${next.slug}`}
-          className="group mt-10 flex items-center justify-between gap-6 rounded-lg border border-border bg-card p-6 transition-all duration-300 hover:-translate-y-1 hover:border-foreground/30 hover:shadow-[0_18px_40px_-20px_rgb(20_33_61/0.35)] md:p-8"
+          className="group mt-10 flex items-center justify-between gap-6 rounded-lg border border-border bg-card p-6 transition-all duration-300 hover:-translate-y-1 hover:border-accent/60 hover:shadow-[0_18px_40px_-20px_rgb(207_174_112/0.35)] md:p-8"
         >
           <span>
             <span className="block font-mono text-xs uppercase tracking-[0.14em] text-muted-foreground">Next project</span>
